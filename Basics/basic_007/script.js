@@ -12,7 +12,7 @@ function retVar(){
     let nun = 100;
     return(nun);
 }
-let enotherNam = retVar()
+let enotherNam = retVar();
 console.log(enotherNam);
 
 let str = 'string';

@@ -17,9 +17,18 @@ for (let i = 0; i < 2; i++) {
         console.log('done');
         appData.expenses[a] = b;
     } else {
-        let i = 0;
+        i = i - 1;
     }
-
 }
 
-alert(appData.budget / 30);
+appData.moneyPerDay = (appData.budget / 30);
+if(appData.moneyPerDay < 1000){
+    alert('Ваш доход мал.');
+} else if (appData.moneyPerDay > 5000){
+    alert('У вас хороший доход!');
+} else if(appData.moneyPerDay >= 1000 && appData.moneyPerDay <= 5000) {
+    alert('У вас средний доход');
+} else {
+    alert('Произошла ошибка!!!')
+}     
+console.log(appData);
