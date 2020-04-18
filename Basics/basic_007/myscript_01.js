@@ -11,5 +11,5 @@ let enotherIns = inser(world);
 if(enotherIns){
    console.log(enotherIns); 
 } else {
-    console.log('Не верное количество знаков!');    
+    console.log('Неdерное количество знаков!');    
 }
