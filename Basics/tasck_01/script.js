@@ -25,7 +25,7 @@ function chooseExpensive() {
         let a = prompt('Статья обязательных расходов.', ''),
             b = +prompt('Во сколько обойдётся?', '');
         if ((typeof (a)) === 'string' && (typeof (a)) != null && typeof (b) != null && a != '' && b != '' && a.length < 15) {
-            console.log('done');
+            console.log('done chooseExpensive');
             appData.expenses[a] = b;
         } else {
             i = i - 1;
