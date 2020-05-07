@@ -19,22 +19,22 @@
 //     console.log(key);    
 // }
 
-// let ans = prompt('', ''),
-// arrTy = [];
-// arrTy = ans.split(' ');
-// console.log(arrTy);
+let ans = prompt('', ''),
+arrTy = [];
+arrTy = ans.split(' ');
+console.log(arrTy);
 
-let arrTu = ['qqq', 'yyy', 'eee', 'aaa'],
-    //i = arrTu.join(', ');
-    i = arrTu.sort();
-    console.log(arrTu);
-    //console.log(i);
+// let arrTu = ['qqq', 'yyy', 'eee', 'aaa'],
+//     //i = arrTu.join(', ');
+//     i = arrTu.sort();
+//     console.log(arrTu);
+//     //console.log(i);
 
-let arrTi = [ 1, 16, 6],
-g = arrTi.sort(compNum);
-function compNum(a, b){
-    return(a - b)
-}
-console.log(arrTi);   
+// let arrTi = [ 1, 16, 6],
+// g = arrTi.sort(compNum);
+// function compNum(a, b){
+//     return(a - b)
+// }
+// console.log(arrTi);   
 
 //console.log(arr);
