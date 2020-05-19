@@ -19,6 +19,6 @@ title.innerHTML = 'Мы продаём только подлинную техн�
 
 column.removeChild(adv);
 
-let answer = prompt('Ваше отношение к продукции Apple?'); 
-prom.classList.add('title');   
+let answer = prompt('Ваше отношение к продукции Apple?');
+prom.classList.add('title');
 prom.innerHTML = answer;
